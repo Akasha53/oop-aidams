@@ -1,0 +1,18 @@
+{
+    "app": {
+        "name": "PaymentPlatform",
+        "debug": true
+    },
+    "database": {
+        "host": "localhost",
+        "port": 5432
+    },
+    "email": {
+        "smtp_host": "smtp.company.com",
+        "sender": "no-reply@company.com"
+    },
+    "payment": {
+        "api_key": "fake-key-for-the-exercise",
+        "environment": "sandbox"
+    }
+}
